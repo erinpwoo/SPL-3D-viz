@@ -258,6 +258,16 @@ void mousePressed() {
        return;
      }
    } else if (mouseX >= 20 && mouseX <= 30 && mouseY >= 800 && mouseY <= 810) {
+     if (off138) {
+       color138 = color(220,220,220);
+       off138 = !off138;
+       return;
+     } else {
+       color138 = color(85,0,0);;
+       off138 = !off138;
+       return;
+     }
+   } else if (mouseX >= 20 && mouseX <= 30 && mouseY >= 820 && mouseY <= 840) {
      if (off139) {
        color139 = color(220,220,220);
        off139 = !off139;
